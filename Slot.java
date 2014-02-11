@@ -1,5 +1,5 @@
-
-public class Slot implements CONSTANTS{
+import java.awt.Point;
+public class Slot{ 
 
 	private int x; /* The X Coordinate */
 	private int y; /* The Y Coordinate */
@@ -14,22 +14,22 @@ public class Slot implements CONSTANTS{
 	
 	/* Accessors & Mutators */
 	
-	void setX(int xn)
+	public void setX(int xn)
 	{
 		this.x = xn;
 	}
 	
-	int getX()
+	public int getX()
 	{
 		return this.x;
 	}
 	
-	void setY(int yn)
+	public void setY(int yn)
 	{
 		this.y = yn;
 	}
 	
-	int getY()
+	public int getY()
 	{
 		return this.y;
 	}
@@ -39,8 +39,8 @@ public class Slot implements CONSTANTS{
 	public Point toPoint()
 	{
 		Point pos = new Point();
-		pos.setX(BORDER + (SQUARE * this.getX()));
-		pos.setY(BORDER + (SQUARE * this.getY()));
+		pos.x= Constants.BORDER + (Constants.SQUARE * this.getX());
+		pos.y=(Constants.BORDER + (Constants.SQUARE * this.getY()));
 		return pos;
 	}
 

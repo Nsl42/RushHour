@@ -1,3 +1,5 @@
+
+
 /**
  * A set of constants used in the RushHour program.
  */
@@ -15,8 +17,8 @@ public interface Constants {
     public static final String UP = "U", DOWN = "D";
 
     // dimensions in pixels
-    public static final int SQUARE = 30; // the side of a square in the grid
-    public static final int BORDER = 4; // the width of a border in the grid 
+    public static final int SQUARE = 90; // the side of a square in the grid
+    public static final int BORDER = 12; // the width of a border in the grid 
     public static final int SIZE = 6*SQUARE+2*BORDER; // the total size of the window (height or width)
 
 }

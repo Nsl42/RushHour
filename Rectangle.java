@@ -1,3 +1,4 @@
+
 import java.awt.*;
 
 /**
@@ -7,7 +8,7 @@ import java.awt.*;
  * light_green, green, dark_green, purple, dark_purple, magenta,
  * white, brown, dark_brown, grey, dark_grey
  * 
- * @author  Pascale Launay and Michael Kölling and David J. Barnes
+ * @author  Pascale Launay and Michael Klling and David J. Barnes
  * @version 2014.01.31
  */
 
