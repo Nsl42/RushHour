@@ -1,4 +1,14 @@
 import java.awt.Point;
+/** Technic Slot Class, the cartesian coordinates of the playfield
+ *
+ * @author: Romain Bressan
+ * @author: Anas Alaoui M'Darhri
+ * @author: Jean-Baptiste Carlus
+ * @author: Siham Ben Arbiya
+ *
+ * @version: 2014.02.14
+ */
+
 public class Slot{ 
 
 	private int x; /* The X Coordinate */
@@ -34,7 +44,12 @@ public class Slot{
 		return this.y;
 	}
 	
-	/** Useful Methods **/
+	/* Useful Methods */
+
+	/** Method which returns the x/y coordinates (in pxls) in a Point object
+	 *
+	 * @return: Point point The x/y coordinamtes of the Object
+	 */
 	
 	public Point toPoint()
 	{
