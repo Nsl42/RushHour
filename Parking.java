@@ -53,21 +53,7 @@ public class Parking{
 			throw new IllegalArgumentException();
 		Vehicule v = get(order.charAt(0) + "");
 		int dist = Integer.parseInt(order.charAt(2) + "");
-		switch(order.charAt(1) + "")
-		{
-			case Constants.UP:
-				v.move(Constants.UP, dist);
-				break;
-			case Constants.LEFT:
-				v.move(Constants.LEFT, dist);
-				break;
-			case Constants.RIGHT:
-				v.move(Constants.RIGHT, dist);
-				break;
-			case Constants.DOWN:
-				v.move(Constants.DOWN, dist);
-				break;
-		}
+		v.move(order.charAt(1)+"", dist);
 	}
 }
 
